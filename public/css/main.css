@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Maitree', serif;
+}
+body {
+  background-color: #f5fafd;
+}
+li,
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.course-id {
+  font-weight: 500;
+  color: #1ca9ea;
+  text-decoration: underline;
+}
+.course-id:hover {
+  color: #2ec8f9;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.text-logo {
+  font-size: 27px;
+}
+.main-header_item-list {
+  list-style-type: none;
+}
+
+.main-header_item-list li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.main-header_item-list li a {
+  transition: all 0.3s ease 0s;
+}
+.main-header_item-list li a:hover {
+  color: #33b9f8;
+}
