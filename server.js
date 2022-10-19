@@ -6,7 +6,7 @@ const courseslist = require('./routes/courses');
 const bodyparser = require('body-parser');
 const morgan = require('morgan');
 
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 app.use(express.json());
