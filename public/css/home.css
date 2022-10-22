@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Maitree', serif;
+}
+p {
+  font-size: 17px;
+  margin-top: 15px;
+  margin-left: 500px;
+}
+
+.container {
+  border: 1px black solid;
+  text-align: center;
+  padding-top: 50px;
+  background-image: linear-gradient(to right, #fbd3e9, #bb377d);
+  padding-bottom: 50px;
+}
+
+.underline {
+  margin: 0px;
+}

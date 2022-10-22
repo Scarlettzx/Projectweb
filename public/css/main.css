@@ -7,14 +7,14 @@
   font-family: 'Maitree', serif;
 }
 body {
-  background-color: #f5fafd;
+  background-color: #f9f8f8;
 }
 li,
 a {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 
 .course-id {
@@ -30,8 +30,8 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 30px 8%;
-  background-color: #ffffff;
   color: #000000;
+  background-color: white;
 }
 .text-logo {
   font-size: 27px;
@@ -49,4 +49,18 @@ a {
 }
 .main-header_item-list li a:hover {
   color: #33b9f8;
+}
+.fs-2_text-center_m-0 {
+  font-size: 40px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: #0671b7;
+  margin-top: 15px;
 }
